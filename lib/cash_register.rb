@@ -12,4 +12,12 @@ class CashRegister
     quantity.times { items << item }
   end
 
+  def apply_discount(cost, discount)
+        
+  end
+
+  def void_last_transaction
+    
+  end
+
 end
